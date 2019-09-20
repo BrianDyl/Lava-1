@@ -163,34 +163,30 @@ section {
     
    
 }
-.footer-logo{
-  width: 25%;
+
+ .footer-logo.col {
+    width: 30%;
+    float: left;
+} 
+
+.footer-nav.col {
+    float: left;
+    padding-top: 50px;
+    
 }
+
 .footer img{
     padding: 30px;
 }
 
-.footer-nav {
-     
-    display: inline-block;
-    transform: translateY(-160%);
-    margin-left: 60px;
-}
 .footer a{
     color: #ff6600;
     padding-right: 36px;
     font-size: 22px;
    
 }
-.footer a:last-child{
-    padding-right: 0;
-}
 
-.social-nav {
- 
-   float: right;
-   
-}
+
 .social-nav a{
     padding: 0;
     margin: 0;
