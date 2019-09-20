@@ -1,0 +1,197 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.wrapper{  
+    width: 1336px;
+    max-height: 1835px;
+    margin: 0 auto;
+    background-image: url(img/background.jpg);
+}
+header{
+    position: relative;
+    width: 1140px;
+    height: 130px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, #330000, #660000);
+}
+.menu a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 54px;
+    left: 60px;
+}
+a {
+    color: white;
+}
+.logo{
+    padding-top: 23px;
+    text-align: center; 
+}
+
+.top-nav {
+   
+    position: absolute;
+    top: 54px;
+    right: 60px;
+}
+.top-nav a { 
+font-size: 22px;   
+color: white;
+text-decoration: none;
+margin-right: 60px;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+
+
+section {
+    background-color: #330000;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    transform: translateY(-20%)  
+}
+
+ .bx-wrapper { 
+    width: 1140px;
+    height: 600px;;
+    margin: 0 auto;
+    overflow: hidden;     
+}
+
+.bx-viewport {
+    height: 600px;  
+}
+
+.introduction div {
+  width: 825px;
+  margin: 0 auto;  
+}
+
+.introduction h1{
+    padding-top: 42px;
+    font-size: 36px;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.introduction p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0;;
+    margin-top: 0;
+}
+
+.content {
+  background-color: black;
+  width: 1140px;
+  height: auto;
+  transform: translateY(-13%);
+  
+}
+
+.content .col {
+    float: left;  
+}
+.content .col img {  
+    width: 380px;
+    height: 214px;
+    background-color: gray;
+    transition: all .2s ease-in-out;
+}
+
+.content .col h2  {
+    color:#ff6600;
+    font-size: 30px;
+}
+
+.content .col p{
+    color: white;
+    width: 380px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+.content .col img:hover{
+    transform: scale(1.1);
+}
+
+.reservation {
+    width: 1140px;
+    height: 192px;
+    background-image: url(img/reservation-bg.jpg);
+    background-position: -100px -55px;
+   text-align: center;
+   
+
+}
+.reservation p{
+    font-size: 35px;
+    color: white;
+    padding-top: 60px;
+    margin-top: 0;
+}
+.reservation a {
+    color: #ff6600;
+}
+
+.footer {
+    width: 1140px;
+    height: 130px;
+    margin: 0 auto;
+    background-color: #330000;
+    transform: translateY(-28%);
+    margin-bottom: 0;
+    position: relative;
+    
+   
+}
+.footer-logo{
+  width: 25%;
+}
+.footer img{
+    padding: 30px;
+}
+
+.footer-nav {
+     
+    display: inline-block;
+    transform: translateY(-160%);
+    margin-left: 60px;
+}
+.footer a{
+    color: #ff6600;
+    padding-right: 36px;
+    font-size: 22px;
+   
+}
+.footer a:last-child{
+    padding-right: 0;
+}
+
+.social-nav {
+ 
+   float: right;
+   
+}
+.social-nav a{
+    padding: 0;
+    margin: 0;
+}
