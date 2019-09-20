@@ -137,10 +137,8 @@ section {
     width: 1140px;
     height: 192px;
     background-image: url(img/reservation-bg.jpg);
-    background-position: -100px -55px;
-   text-align: center;
-   
-
+    background-position: -150px -55px;
+    text-align: center;
 }
 .reservation p{
     font-size: 35px;
@@ -159,35 +157,40 @@ section {
     background-color: #330000;
     transform: translateY(-28%);
     margin-bottom: 0;
-    position: relative;
-    
-   
+    position: relative;    
 }
 
  .footer-logo.col {
-    width: 30%;
+    width: 25%;
     float: left;
 } 
+        .footer img {
+            padding: 30px;
+            margin-right: 20px;
+        }
 
 .footer-nav.col {
     float: left;
     padding-top: 50px;
-    
+    width: 50%;
+    text-align: center; 
 }
 
-.footer img{
-    padding: 30px;
-}
-
-.footer a{
-    color: #ff6600;
-    padding-right: 36px;
-    font-size: 22px;
+        .footer-nav a {
+           color: #ff6600;
+           padding: 0 20px;
+           font-size: 22px;
+           text-decoration: none;
+        }
+.social-nav {
+    float: right;
+    margin-right: 22px;
    
 }
-
-
-.social-nav a{
-    padding: 0;
-    margin: 0;
+.social-nav img {
+    margin: 30px 10px 0 100px;
+    padding: 5px;  
+}   
+.social-nav img:last-child{
+  margin-left: 0;
 }
